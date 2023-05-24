@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Element Sizing</title>
+</head>
+<body>
+    <h4 class="text-center">Container Measurement</h4>
+    <img class="mx-auto" src="images/container.jpg" alt="">
+
+    <h5 class="mb-4 mt-4 text-center">About Element Sizing Must Read the comment</h5>
+    <!-- Theory must know -->
+    <!-- 1 rem = document base font
+    if base font is 16px then, 1rem = 16px
+    deduce that 20px = 1.25 rem
+    no decimals in Tailwind Numbering system
+    
+    1 rem = 4 in Tailwind (multiplied by 4)
+    if base font is 16px then = 1 rem = 4in tailwind
+    for example: width of 16px in tailwind: w-4
+    1.25 rem = 5 in tailwind (20px): w-5
+
+    -->
+
+    <div class="container mx-auto">
+        <h3 class="bg-red-500">Lorem ipsum dolor sit.</h3>
+
+        <!-- Margin -->
+        <h3 class="my-4">Margin</h3>
+        <div class="m-4 bg-green-500">Margin-1</div>
+        <div class="mx-4 bg-green-500"></div>
+        <div class="my-5 bg-red-500">Margin-2</div>
+        <div class="mt-6 bg-blue-500">Margin-3</div>
+        <div class="mb-12 bg-green-700">Margin-4</div>
+        <div class="mr-6 bg-green-900">Margin-5</div>
+        <div class="ml-8 bg-lime-500">Margin-6</div>
+        <div class="m-4 bg-green-500">Margin-7</div>
+        <div class="m-4 bg-green-500">Margin8</div>
+        <div class="m-4 bg-green-500">Margin-9</div>
+        <!-- Margin -->
+        <br><br>
+        <!-- Custom Margin -->
+        <div class="mt-[20px] bg-cyan-400">margin - [20px]</div>
+         <!-- Custom Margin -->
+        <br> <br>
+        <h2>Hello</h2>
+         <!-- Custom Padding -->
+         <div class="pt-[20px] bg-cyan-400">padding - [20px]</div>
+         <!-- Custom Padding -->
+        <br> <br>
+        
+        <!-- Padding -->
+        <h3 class="py-4">Padding</h3>
+        <div class="p-4 bg-green-500">Padding-1</div>
+        <div class="px-4 bg-green-500">Padding</div>
+        <div class="py-5 bg-red-500">Padding-2</div>
+        <div class="pt-6 bg-blue-500">Padding-3</div>
+        <div class="pb-12 bg-green-700">Padding-4</div>
+        <div class="pr-6 bg-green-900">Padding-5</div>
+        <div class="pl-8 bg-lime-500">Padding-6</div>
+        <div class="p-4 bg-green-500">Padding-7</div>
+        <div class="p-4 bg-green-500">Padding-8</div>
+        <div class="p-4 bg-green-500">Padding-9</div>
+        <!-- Padding -->
+
+        <br><br>
+        <!-- space between x -->
+        <h3 class="my-4">Space Between X</h3>
+        <div class="flex flex-col space-y-4">
+            <div class="p-3 bg-red-500">sec-1</div>
+            <div class="p-3 bg-red-500">sec-1</div>
+            <div class="p-3 bg-red-500">sec-1</div>
+        </div>
+        <!-- space between x -->
+
+        <br><br>
+        <!-- space between y -->
+        <h3 class="my-4">Space Between Y</h3>
+        <div class="flex flex-row space-x-4">
+            <div class="p-3 bg-red-500">sec-1</div>
+            <div class="p-3 bg-red-500">sec-1</div>
+            <div class="p-3 bg-red-500">sec-1</div>
+        </div>
+        <!-- space between y -->
+
+
+
+    
+    </div>
+
+    
+    
+</body>
+</html>
