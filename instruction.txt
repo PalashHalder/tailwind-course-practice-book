@@ -1,3 +1,6 @@
 Section:3 Fundamentals of Tailwind CSS
 
 24-05-2023      Sizing in Tailwind CSS
+
+24-05-2023      Layout Postion in Tailwind CSS relative absolute inline
+                block inline-block z-index float
